@@ -17,9 +17,9 @@ plt.bar(bar1,bronze,0.2,label="Bronze",color="#B1560F",edgecolor="black")
 plt.bar(bar2,silver,0.2,label="Silver",color="#C0C0C0",edgecolor="black")
 plt.bar(bar3,gold,0.2,label="Gold",color="#FFD700",edgecolor="black")
 
-plt.xlabel("Country")
-plt.ylabel("Number of Medals")
-plt.title("Canada & USA - Medal Categories", pad=20, **hfont)
+plt.xlabel("Country", **hfont, fontweight="bold")
+plt.ylabel("Number of Medals", **hfont, fontweight="bold")
+plt.title("Canada & USA - Medal Categories", pad=20, **hfont, fontweight="bold")
 plt.xticks(bar1+w,x)
 plt.legend()
 
