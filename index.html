@@ -3,22 +3,68 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Olympic Data Visualization • Team Canada</title>
+	<title>Olympic Data Visualization & Analysis</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<main class="wrapper">
-		<h1 class="hidden">Data Visualization Project</h1>
-		<section class="main-point">
-			<h1 class="hidden">Data Point 1</h1>
-			<h2>Data Point 1</h2>
-			<p>Some Point</p>
+	<div class="container">
+		<h1 class="hidden">Olympic Data Visualization & Analysis</h1>
+		<header class="mainHeader">
+			<h1 class="Title">Olympic Data Visualization & Analysis</h1>
+		</header>
+		<section class = "Comparison1">
+			<h2 class="hidden">USA & Canada Comparison</h2>
+			<section class="header1">
+				<h2>The Age Old Rivalry of Canada & USA</h2>
+			</section>
+			<section class="intro1">
+				<p>Canada and USA have the two highest medal counts out of all the countries that have participated in the Winter Olympics between 1924 and 2014. Lets take a deeper dive into the data and further assess their performances to see how they truly matched up against one another.</p>
+			</section>
+					<section class = "Comparison1_data">
+						<img src="images/can_usa_pie.png" alt="Canada & USA Total Medal Comparison" width="320" height="240" id="can_usa_pie">
+						<img src="images/can_usa_grouped.png" alt="Canada & USA: Medal Categories" width="320" height="240" id="can_usa_grouped">
+					</section>
+			<section class="conclusion1">
+				<p>After looking at the two figures provided, it can be seen that in terms of overall medal count, USA is victorious over Canada by a small margin. As shown in the pie chart out of the combined medal total of the two countries, 48.9% of the medals are won by Canada and 51.1% of medals are won by USA. However, if assess the performance of the two countries by looking at their performances in individual medal catogories, Canada actually seems to have performed better than USA. If we look solely at the gold medal category, Canada blows USA out of the water by winning nearly double the amount of medals. Canada also has relatively fewer third place finishes than USA. Though at first glance it may seem that USA are the victors of this rivalry, upon analyzing the data it can be seen that Canada actually had a better performance overall.</p> 
+			</section>
 		</section>
-		<section class="main-point">
-			<h1 class="hidden">Data Point 2</h1>
-			<h2>Data Point 2</h2>
-			<p>Some Point</p>
+
+		<section class="Comparison2">
+			<h2 class="hidden">Germany Comparison</h2>
+			<section class="header2">
+				<h2>Don't Count Out The Germans!</h2>
+			</section>
+			<section class="intro2">
+				<p>If we arrange the data in terms of the total medal count of each country and provide them with rankings based on this, the countries with the top five rankings are USA, Canada, Norway, Soviet Union and Finland. All of these countries with the exception of the Soviet union have remained as one country and thus have consistently competed under the same country name in all of the winter olympics. Due to the civil and political disputes that have taken place in Germany over the past century, it has faced a number of divisions as a country. Consequently, in the Olympic data, there are four different country categories listed for Germany. For this comparison, lets assume that Germany remained as one country throughout the past century, combine its medal totals, and see where it lands in the overall rankings in this scenario</p>
+			</section>
+					<section class="Comparison2_data">
+						<img src="images/germany_bar.png" alt="Germany Medal Total Compared To Top Five Countries" width="320" height="240" id="germany_bar">
+						<img src="images/germany_stacked.png" alt="Canada, USA & Germany: Medal Categories" width="320" height="240" id="germany_stacked">
+					</section>
+				<section class="conclusion2">
+				<p>If we look at the first graph and compare Germany's combined medal total to the top five highest ranked countries, Germany passes Canada to take second place behind USA with 627 total medals. This makes Germany one of three countries to break the 600 medal mark. But lets see how they fared when looking at individual medal categories compared to Canada and USA. As shown in the second figure, Canada still remains untouched in the the gold medal category. However, Germany does pass USA with its combined 226 gold medals compared to USA's 167. In terms of overall performance, Canada still remains in the lead, however, USA is no longer the only country giving us competition.</p>
+				</section>
 		</section>
-	</main>
+
+		<section class="Comparison3">
+			<h2 class="hidden">Men Women Comparison</h2>
+			<section class="header3">
+				<h2>Medals Won by Men Compared to Women</h2>
+			</section>
+			<section class="intro3">
+				<p>In this comparison, the data is being used to assess whether men or women won more medals overall. Given that in the early years of the winter Olympics, women's participation was minimal and majority of the participants were men, they are the ones who likely won the greater number of medals between the two subgroups. Also, we will take a look at the trajectory of total medals won by each subgroup throughout all of the olympics that have taken places and assess the trends. If the two trajectories were placed on a line plot, there would likely be a big gap in the number of total medals won by each sub group that would be in favor of the men. However, given that women's participation in the Olympics increased over the decades, it is reasonable to infer that the gap between the two sub groups closes as we move closer to 2014. Lets take a look.</p>
+			</section>
+					<section class="Comparison3_data">
+						<img src="images/men_women_pie.png" alt="Portions of Medals Won by Men & Women" width="320" height="240" id="men_women_pie">
+						<img src="images/men_women_line.png" alt="Trajectory Of Medals Won By Men & Women: 1924-2014" width="320" height="240" id="men_women_pie">
+					</section>
+			<section class="conclusion3">
+				<p>As predicted, majority of the total medals have been won by the subgroup of men which has approximately 2/3 of the total medals. Once again this is likely due women's lack of participation in the early years of the olympics. As for the trejectories of the two sub groups, both have an upward direction indicating that the participation for each subgroup has been increasing since the first winter Olympics. Once again, as predicted, there is a large gap in the trajectories of the two subgroups in the early years of the Olympics, however, as the data gets closer to 2014, the gap is also shown to be getting smaller and smaller. This shows that the number of women prticipating in the winter Olympics is becoming closer and closer to the number of men. </p>
+			</section>
+		</section>
+
+
+	</div>
 	
 </body>
 </html>
