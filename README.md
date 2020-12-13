@@ -1,4 +1,8 @@
 # Olympic Data Viz Project
 
-## Different narratives contrived from the Olympic Medal Data
+## A one page app created to show three different narratives contrived from the Winter Olympic Medal Data provided in MMED-1054.
+
+
+
+
 
