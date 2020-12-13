@@ -1,4 +1,4 @@
-# Olympic Data Viz Project
+# MMED-1054 Winter Olympic Data Visualization Project
 
 ## Description
 
